@@ -167,9 +167,12 @@
 }
 
 .map-section__block {
+    position: relative;
+    z-index: 2;
     padding: 40px;
     border-radius: 30px;
     background: #FFF;
+    margin-top: -30px;
 }
 
 .block-title {
